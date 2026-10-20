@@ -705,12 +705,12 @@ def index_page():
 
 # ---------------------------------------------------------------- about
 BOARD = [
- ('Dr Vishnu Ramdeo', 'Founder'),
- ('Luisa von Richthofen', 'Commissioning and editorial planning'),
- ('Tushar Shetty', 'Topics and editorial workflow'),
- ('Shalu Yadav', 'Reporting from New Delhi'),
- ('Dr Renu Mann', 'Policy research'),
- ('Tony Siewert', 'Design and production'),
+ ('Dr Vishnu Ramdeo', 'Editorial Board'),
+ ('Luisa von Richthofen', 'Editorial Board'),
+ ('Tushar Shetty', 'Editorial Board'),
+ ('Shalu Yadav', 'Editorial Board'),
+ ('Dr Renu Mann', 'Editorial Board'),
+ ('Tony Siewert', 'Editorial Board'),
 ]
 
 def about_page():
