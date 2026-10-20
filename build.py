@@ -182,7 +182,7 @@ def head(title, current=None, desc='Sangam Europa, a quarterly magazine on India
 
 def contact_html():
     if CONTACT_EMAIL:
-        return f'<a href="mailto:{esc(CONTACT_EMAIL)}">{esc(CONTACT_EMAIL)}</a>'
+        return f'<a href="mailto:{esc(CONTACT_EMAIL)}">Write to the editorial board</a>'
     return '<span>Contact address to follow.</span>'
 
 def band():
@@ -742,7 +742,7 @@ def about_page():
   <h2 id="board">Editorial board</h2>
   <div class="people">{people}</div>
   <h2 id="contact">Contact</h2>
-  <p>Editorial board, Sangam Europa, Berlin. {contact_html()}</p>
+  <p>Sangam Europa, Berlin. {contact_html()}</p>
  </div>
  {p.sources_block()}
 </div>
