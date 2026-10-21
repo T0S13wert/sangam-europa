@@ -711,6 +711,7 @@ BOARD = [
  ('Shalu Yadav', 'Editorial Board'),
  ('Dr Renu Mann', 'Editorial Board'),
  ('Tony Siewert', 'Editorial Board'),
+ ('Maximilian von Laer', 'Editorial Board'),
 ]
 
 def about_page():
